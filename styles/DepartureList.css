@@ -1,0 +1,240 @@
+.button-group {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.skip-button {
+  padding: 4px 8px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.depart-button {
+  padding: 6px 16px;
+  background-color: #0a84ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.password-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.modal-buttons button {
+  padding: 4px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-buttons button:first-child {
+  background-color: #f0f0f0;
+}
+
+.modal-buttons button:last-child {
+  background-color: #1890ff;
+  color: white;
+}
+
+.route-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.skip-button {
+  padding: 4px 12px;
+  background-color: #ff453a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.info-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.route-number {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.capacity {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.check-time {
+  font-size: 14px;
+  color: #8e8e93;
+}
+
+.departure-item {
+  background: #1c1c1e;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 16px;
+  color: white;
+}
+
+.vehicle-card {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.route-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skip-button {
+  padding: 6px 12px;
+  background-color: #ff453a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.capacity {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.check-time {
+  font-size: 14px;
+  color: #8e8e93;
+  margin-bottom: 12px;
+}
+
+.cancel-button {
+  padding: 6px 16px;
+  background-color: #48484a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #636366;
+}
+
+.depart-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.depart-info {
+  background: #1c1c1e;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+  color: white;
+}
+
+.depart-info div {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.depart-info div:last-child {
+  margin-bottom: 0;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cancel-depart-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff453a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-depart-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0a84ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
